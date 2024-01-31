@@ -1,0 +1,263 @@
+{
+  "brands": [
+    {
+      "id": 1,
+      "title": "Cartier",
+      "slug": "cartier"
+    },
+    {
+      "id": 2,
+      "title": "Rolex",
+      "slug": "rolex"
+    },
+    {
+      "id": 3,
+      "title": "Omega",
+      "slug": "omega"
+    },
+    {
+      "id": 4,
+      "title": "Tag Heuer",
+      "slug": "tag-heuer"
+    },
+    {
+      "id": 5,
+      "title": "Seiko",
+      "slug": "seiko"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Cartier Tank Solo",
+      "description": "Elegant and timeless watch from Cartier's Tank collection.",
+      "price": 599.99,
+      "image1": "assets/img/products/1-450x450.jpg",
+      "image2": "assets/img/products/1-1-450x450.jpg",
+      "slug": "cartier-tank-solo",
+      "brandId": 1,
+      "status": {
+        "new_arrival": true,
+        "featured": false,
+        "on_sale": false
+      }
+    },
+    {
+      "id": 2,
+      "title": "Rolex Submariner",
+      "description": "Classic diving watch known for its durability and precision.",
+      "price": 7999.99,
+      "image1": "assets/img/products/2-450x450.jpg",
+      "image2": "assets/img/products/6-6-450x450.jpg",
+      "slug": "rolex-submariner",
+      "brandId": 2,
+      "status": {
+        "new_arrival": false,
+        "featured": true,
+        "on_sale": false
+      }
+    },
+    {
+      "id": 3,
+      "title": "Omega Speedmaster",
+      "description": "Iconic chronograph watch, often associated with space exploration.",
+      "price": 4999.99,
+      "image1": "assets/img/products/3-450x450.jpg",
+      "image2": "assets/img/products/3-3-450x450.jpg",
+      "slug": "omega-speedmaster",
+      "brandId": 3,
+      "status": {
+        "new_arrival": false,
+        "featured": true,
+        "on_sale": true
+      }
+    },
+    {
+      "id": 4,
+      "title": "Tag Heuer Carrera",
+      "description": "Sporty and stylish chronograph watch from Tag Heuer's Carrera collection.",
+      "price": 3499.99,
+      "image1": "assets/img/products/4-450x450.jpg",
+      "image2": "assets/img/products/4-4-450x450.jpg",
+      "slug": "tag-heuer-carrera",
+      "brandId": 4,
+      "status": {
+        "new_arrival": true,
+        "featured": true,
+        "on_sale": false
+      }
+    },
+    {
+      "id": 5,
+      "title": "Seiko Presage",
+      "description": "Japanese automatic watch with traditional craftsmanship and modern design.",
+      "price": 899.99,
+      "image1": "assets/img/products/5-450x450.jpg",
+      "image2": "assets/img/products/5-5-450x450.jpg",
+      "slug": "seiko-presage",
+      "brandId": 5,
+      "status": {
+        "new_arrival": false,
+        "featured": false,
+        "on_sale": true
+      }
+    }
+  ],
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Choose the Perfect Timepiece",
+      "short_description": "Explore the art of choosing the perfect watch for every occasion.",
+      "long_description": "Dive into the world of horology and discover the factors to consider when choosing a timepiece. Whether it's for a formal event or casual wear, find the perfect watch for your style.",
+      "slug": "choosing-the-perfect-timepiece",
+      "image": "assets/img/blog/blog1.jpg",
+      "postBy": "admin",
+      "postDate": "2023-01-01"
+    },
+    {
+      "id": 2,
+      "title": "Maintenance Tips for Luxury Watches",
+      "short_description": "Learn essential tips to keep your luxury watches in pristine condition.",
+      "long_description": "Owning a luxury watch comes with responsibilities. Discover maintenance tips and tricks to ensure your timepiece retains its beauty and functionality for years to come.",
+      "slug": "maintenance-tips-for-luxury-watches",
+      "image": "assets/img/blog/blog5.jpg",
+      "postBy": "admin",
+      "postDate": "2023-02-15"
+    },
+    {
+      "id": 3,
+      "title": "History of Iconic Watch Brands",
+      "short_description": "Explore the rich history and heritage of iconic watch brands.",
+      "long_description": "Take a journey through time and learn about the fascinating history behind some of the most iconic watch brands in the world. From innovations to timeless designs, discover the stories behind the watches.",
+      "slug": "history-of-iconic-watch-brands",
+      "image": "assets/img/blog/blog3.jpg",
+      "postBy": "admin",
+      "postDate": "2023-05-10"
+    },
+    {
+      "id": 4,
+      "title": "Trends in Watch Design",
+      "short_description": "Stay updated on the latest trends in watch design and fashion.",
+      "long_description": "Fashion and watch design evolve over time. Stay ahead of the curve by exploring the current trends in watch design. From minimalist dials to bold colors, find out what's hot in the world of wristwatches.",
+      "slug": "trends-in-watch-design",
+      "image": "assets/img/blog/blog7.jpg",
+      "postBy": "admin",
+      "postDate": "2023-08-22"
+    }
+  ],
+  "orderedProducts": [
+    {
+      "products": [
+        {
+          "orderedProductid": "ae9680c0-cf1d-4481-b428-c91b9173f92a",
+          "productId": 1,
+          "quantity": 1
+        },
+        {
+          "orderedProductid": "ae9680c0-cf1d-4481-b428-c91b9173f92a",
+          "productId": 2,
+          "quantity": 1
+        }
+      ],
+      "id": 1
+    },
+    {
+      "products": [
+        {
+          "orderedProductid": "298d987a-3d90-4291-851b-06850aaef57c",
+          "productId": 2,
+          "quantity": 1
+        },
+        {
+          "orderedProductid": "298d987a-3d90-4291-851b-06850aaef57c",
+          "productId": 3,
+          "quantity": 1
+        }
+      ],
+      "id": 2
+    },
+    {
+      "products": [
+        {
+          "orderedProductid": 524062790,
+          "productId": 4,
+          "quantity": 1
+        }
+      ],
+      "id": 3
+    },
+    {
+      "products": [],
+      "id": 4
+    }
+  ],
+  "personalInfo": [
+    {
+      "id": "bf4428ee-33b1-448b-aa7c-b0e685656c40",
+      "firstName": "batu",
+      "lastName": "çelik",
+      "country": "TR",
+      "townCity": "Istanbul",
+      "district": "pendik",
+      "zip": "34121",
+      "phone": "5342231231",
+      "email": "batu@batu.com"
+    },
+    {
+      "id": "955a4966-23bc-40b6-ba2c-c5905dbbf0c7",
+      "firstName": "asd",
+      "lastName": "asda",
+      "country": "HU",
+      "townCity": "dffds",
+      "district": "sfs",
+      "zip": "dsfd",
+      "phone": "32342342",
+      "email": "dasas@hot.com"
+    },
+    {
+      "id": 843943,
+      "firstName": "sdfdd",
+      "lastName": "dff",
+      "country": "",
+      "townCity": "",
+      "district": "",
+      "zip": "",
+      "phone": "",
+      "email": ""
+    },
+    {
+      "id": 857166,
+      "firstName": "",
+      "lastName": "",
+      "country": "",
+      "townCity": "",
+      "district": "",
+      "zip": "",
+      "phone": "",
+      "email": ""
+    }
+  ],
+  "orders": [
+    {
+      "id": "eb76775d-86fa-4bbd-b86b-a573be78bfb0",
+      "orderDate": "08/01/2024",
+      "personalInfoId": "bf4428ee-33b1-448b-aa7c-b0e685656c40",
+      "orderedProducts": "ae9680c0-cf1d-4481-b428-c91b9173f92a"
+    },
+    {
+      "id": "298d987a-3d90-4291-851b-06850aaef57c",
+      "orderDate": "08/01/2024",
+      "personalInfoId": "955a4966-23bc-40b6-ba2c-c5905dbbf0c7"
+    },
+    {
+      "id": 524062790,
+      "orderDate": "08/01/2024",
+      "personalInfoId": 843943
+    },
+    {
+      "id": 306114,
+      "orderDate": "08/01/2024",
+      "personalInfoId": 857166
+    }
+  ]
+}
